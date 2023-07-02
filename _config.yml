@@ -1,0 +1,67 @@
+### your site title here
+# git push origin gh-pages
+
+title: Building rapport and empathy
+description:
+
+baseurl: "" #name of GitHub repository
+url: "https://ivanbek.com" #custom url to be used instead of GitHub repository
+email: #
+repository: ivanbeknno/ivanbeken.github.io
+
+locale: "en_US"
+
+highlighter: rouge
+markdown: kramdown
+
+# Pagination
+paginate: 20
+permalink: /blog/:year/:title/
+paginate_path: /blog/:num/
+
+# Social media links in footer
+facebook: #
+twitter: #
+linkedin: #
+researchgate: #
+orcid: #
+
+highlighter: rouge
+markdown: kramdown
+
+# Tracker
+analytics:
+
+#optimization -> compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!--", "-->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+#collection
+collections:
+  projects:
+    output: true
+    permalink: /cases/:path/
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - LICENSE.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-target-blank

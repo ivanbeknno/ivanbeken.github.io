@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h3>{{page.title}}</h3>
+
+<b>{{page.description}}</b>
+
+{{content}}
+
+<!-- Comments only for posts -->
+{% if page.path contains '_posts' %}
+    {% if site.disqus-shortname %}
+        {% include disqus.html %}
+    {% endif %}
+{% endif %}

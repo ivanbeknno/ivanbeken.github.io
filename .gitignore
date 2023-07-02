@@ -1,0 +1,7 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache
+.run.txt
+.run.bat
+assets/images/others
