@@ -8,8 +8,8 @@ published: true
 ## 🌍 Online Events
 
 Next meeting:\
-**📅 July 11th Tuesday at ⌚ 4:30 pm by Coordinated Universal Time (UTC +0)**\
-Registration form and other details: [by this link](https://forms.gle/4iE3HFiwtQSHFe32A "Registration link for 12.07.2023").
+**📅 July 25th Tuesday at ⌚ 4:30 pm by Coordinated Universal Time (UTC +0)**\
+🎫**Registration form and other details: [by this link](https://forms.gle/vQ9ArPuRjQN92tu17 "Registration link for 25.07.2023")**.
 
 Hi!
 I starting this online meetings in English.
@@ -38,6 +38,6 @@ Why do I do it for free
 * Maybe I will find clients
 * Maybe I will be able to build a community
 
-🎫**Registration form and other details: [by this link](https://forms.gle/4iE3HFiwtQSHFe32A "Registration link for 12.07.2023")**.
+🎫**Registration form and other details: [by this link](https://forms.gle/vQ9ArPuRjQN92tu17 "Registration link for 25.07.2023")**.
 
 Telegram group with announcements [@IvanBekEn](https://t.me/IvanBekEn "Telegram group with announcements")
