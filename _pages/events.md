@@ -7,7 +7,7 @@ published: true
 ---
 ## 🌍 Online Events
 
-Next meeting:\
+Next meeting **(Registration is required)**:\
 **📅 July 25th Tuesday at ⌚ 4:30 pm by Coordinated Universal Time (UTC +0)**\
 🎫**Registration form and other details: [by this link](https://forms.gle/vQ9ArPuRjQN92tu17 "Registration link for 25.07.2023")**.
 
