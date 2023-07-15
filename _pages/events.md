@@ -1,5 +1,5 @@
 ---
-title: 🌍Online Events
+title: 🌍Online Events (registration is required)
 layout: default
 description: "I'll help to figure out how to communicate in difficult situations when it isn't clear how to act. The event will be all about situations you will bring with you, I will give theory at a time when it is necessary for understanding."
 permalink: /events/
