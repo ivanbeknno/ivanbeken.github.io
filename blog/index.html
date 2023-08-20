@@ -2,7 +2,6 @@
 title: "📖 Блог"
 layout: default
 description: "Лента блога"
-published: false
 sitemap:
   exclude: 'yes'
 ---
@@ -11,7 +10,7 @@ sitemap:
   {% for post in paginator.posts %}
     <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     <p>{{post.excerpt}}</p>
-    <a href="{{ post.url }}">👓 Читать полноcтью...</a>
+    <a href="{{ post.url }}">👓 Read all...</a>
     <!--
     <table width="85%"><tr><td><a href="{{ post.url }}">(Читать полноcтью...)</a></td><td align="right" class="meta"><small>{{post.date | date: '%B %d, %Y'}}</small></td></tr></table>
     -->
@@ -23,25 +22,27 @@ sitemap:
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Будущее</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Next</a>
   {% else %}
-    <span>&laquo; Будущее</span>
+    <span>&laquo; Next</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <span>{{ page }}</span>
     {% elsif page == 1 %}
-      <a href="{{site.baseurl}}/">{{ page }}</a>
+      <a href="{{site.baseurl}}/blog/">{{ page }}</a>
     {% else %}
       <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Прошлое &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous &raquo;</a>
   {% else %}
-    <span>Прошлое &raquo;</span>
+    <span>Previous &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
+
+<!-- {{ site.time }} -->

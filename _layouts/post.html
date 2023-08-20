@@ -15,8 +15,33 @@ layout: default
 </small></td></tr></table></p>
 -->
 
-
 {{content}}
+
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <!-- <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> -->
+    <a class="prev" href="{{page.previous.url}}">◀ Previous</a>
+  {% endif %}
+  | <a href="{{site.baseurl}}/rnd/">Randome 🍀</a> |
+  {% if page.next.url %}
+    <!-- <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> -->
+    <a class="next" href="{{page.next.url}}">Next ▶</a>
+  {% endif %}
+</div>
+
+<p><small>🧲 Subscribe to new posts: <a href="https://t.me/IvanBekEn" target="_blank" rel="noopener noreferrer"> 📱 In telegram channel</a>  or
+  <a href="{{site.baseurl}}/feed.atom" title="{{site.baseurl}}/feed.atom" >Atom</a></small></p>
+
+<!--
+<p><small> Если вам нравятся мои посты, и вы хотите помочь мне сделать блог лучше,
+  <br> 📝напишите мне
+  <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSewVqwvSpXbR_aBf43fW9dMtb_tkTm8eW90JSv0cXazK0a_FQ/viewform?usp=pp_url&entry.1173564305={{ page.url | url_encode }}">
+    о своем впечатлении по этой ссылке
+  </a></b>
+</small></p>
+-->
+
+<hr>
 
 <!-- Comments only for posts -->
 {% if page.path contains '_posts' %}
@@ -24,5 +49,3 @@ layout: default
         {% include disqus.html %}
     {% endif %}
 {% endif %}
-
-<hr>

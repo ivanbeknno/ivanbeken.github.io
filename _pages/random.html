@@ -1,0 +1,47 @@
+---
+layout: default
+permalink: /rnd/
+published: true
+sitemap:
+  exclude: 'yes'
+---
+<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+
+    <head>
+
+      <script>
+        const allPosts = [{% for post in site.posts %}"{{ post.url }}"{% unless post.previous == nil %},{% endunless %}{% endfor %}];
+
+        function linkToRandomBlogPost() {
+            let lastRandomPostLink = sessionStorage.getItem("lastRandomPostLink");
+
+            if (!lastRandomPostLink) {
+
+              let randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)];
+              sessionStorage.setItem("lastRandomPostLink", randomPostLink);
+              return randomPostLink;
+            } else {
+
+                let updatedPostList = [];
+                let i = 0;
+
+                do
+                  if (allPosts[i] === lastRandomPostLink) {
+                    i++;
+                  } else {
+                    updatedPostList.push(allPosts[i]);
+                    i++
+                  }
+                while (i < allPosts.length)
+
+                let randomPostLink = updatedPostList[Math.floor(Math.random() * updatedPostList.length)];
+                sessionStorage.setItem("lastRandomPostLink", randomPostLink);
+                return randomPostLink;
+            }
+        }
+
+        location.replace(linkToRandomBlogPost())
+      </script>
+
+    </head>

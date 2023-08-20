@@ -141,7 +141,7 @@ blockquote {
 
   a, span {
     padding: 7px 18px;
-    border: 1px solid #eee;
+    border: 0px solid #eee;
     margin-left: -4px;
     margin-right: -4px;
     background-color: transparent;
@@ -196,4 +196,28 @@ blockquote {
   span.rev.surname:after { content:"еБ" }
   span.rev.firstname:before { content:"н" }
   span.rev.firstname:after { content:"вИ" }
+*/
+
+.PageNavigation {
+  text-align: center;
+}
+
+/*
+.PageNavigation {
+  //font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
 */

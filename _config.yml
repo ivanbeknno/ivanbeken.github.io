@@ -10,13 +10,14 @@ email: #
 repository: ivanbeknno/ivanbeken.github.io
 
 locale: "en_US"
+timezone: Etc/UTC
 
 highlighter: rouge
 markdown: kramdown
 
 # Pagination
 paginate: 20
-permalink: /blog/:year/:title/
+permalink: /blog/:year/:month/:title/
 paginate_path: /blog/:num/
 
 # Social media links in footer
@@ -53,6 +54,9 @@ sass:
   sass_dir: /assets/css/_sass
   style: compressed
 
+feed:
+  path: /feed.atom
+
 include:
   - _pages
 
@@ -65,3 +69,4 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-target-blank
+  - jekyll-feed
