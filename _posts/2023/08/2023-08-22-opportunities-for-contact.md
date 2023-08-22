@@ -37,7 +37,7 @@ It's about do I want a closer relationship with this person?\
 Am I ready\
 And if I do, am I ready to invest emotionally in that relationship? To be open-minded. And allow myself to be honest.
 
-Trust is very important. Showing attention sometimes is not the same as earning trust.\
+Trust is important. Showing attention sometimes is not the same as earning trust.\
 Friendship and intimacy are about trust.\
 Trust that I can be sincere and will be heard and accepted, at least to the best of my ability.\
 But not rejected in any way. Otherwise, it makes a crack and trust breaks down.\
