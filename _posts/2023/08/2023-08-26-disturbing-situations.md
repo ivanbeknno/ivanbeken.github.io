@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Disturbing Situations
-date:  2023-08-25
+date:  2023-08-26
 orig_date: 2023-08-26
 published: true
 ---
