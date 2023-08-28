@@ -6,7 +6,7 @@ permalink: /cases/
 published: true
 ---
 ## 💁‍♂️ Reviews
-🌍 this is translated feedbacks original ones is [here](https://ivanbek.ru/cases/)
+<!--🌍 this is translated feedbacks original ones is [here](https://ivanbek.ru/cases/)-->
 
 ### 👩 Personal counseling - Situation in personal relationships
 I consulted Ivan about two situations in which I could not see a way out, there was a feeling of deadlock and confusion.
@@ -22,5 +22,7 @@ Thank you Ivan for the breakdown of a complex (multi-component) situation. The b
 In the end, I very clearly felt the release of something. Words cannot describe this state. It was related not only to the situation but also to my personality. It was cool, unusual, and apt ❤️🌺
 
 PS I loved that Ivan didn't miss anything and even if we veered off course and went off the path, we still got back on it. Thank you, Ivan, for this journey 🌺🕊
+
+---
 
 🌍 this is translated feedbacks original ones is [here](https://ivanbek.ru/cases/)
