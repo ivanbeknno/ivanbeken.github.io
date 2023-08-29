@@ -1,14 +1,15 @@
 ---
-title: "💾 Памятки и полезные ссылки"
+title: "💾 Memos and useful links"
 layout: default
-description: "Полезные памятки и ссылки для взаимопонимания"
+description: "Useful memos and links for mutual understanding"
 permalink: /memo/
-published: false
+published: true
+sitemap:
+  exclude: 'yes'
 ---
-## 💾 Памятки и ссылки
+## 💾 Memos and useful links
 
-Можно смотреть с компьютера, с телефона тоже удобно.\
-А некторые можно даже скачать в формате word и распечатать.
+You can watch them from your computer, or from your phone.
 
-* [Список чувств](/feelings/ "Телеграм канал с анонсами")
-* [Список потребностей](/needs/ "Телеграм канал с анонсами")
+* [List of feelings](/feelings/ "List of feelings")
+* [List of needs](/needs/ "List of needs")
